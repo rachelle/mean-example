@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/application-title');
+mongoose.connect('mongodb://localhost/mean-server-template');
 
 var Resource = require('./models/Resource');
 
