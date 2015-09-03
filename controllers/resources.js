@@ -4,7 +4,7 @@ var index = function(req, res, next) {
   Resource.find({}, function (err, resources) {
     if (err) res.send(err);
 
-    res.render('resources/index', {resources: resources});
+    res.json({resources: resources});
   });
 };
 
